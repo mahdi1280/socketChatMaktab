@@ -8,8 +8,8 @@ public class Server {
     public static final int SERVER_PORT =998;
     public static final int CLIENT_PORT =999;
     public static final int BUFFER_SIZE =1024;
-    public static DatagramSocket DS;
     public static final byte BUFFER[] =new byte[BUFFER_SIZE];
+    public static DatagramSocket DS;
     public static final Scanner scanner=new Scanner(System.in);
 
     public static void receive() throws IOException {
